@@ -1,0 +1,67 @@
+{
+    "nav": {
+        "home": "Asosiy",
+        "menu": "Menyu",
+        "events": "Voqealar",
+        "aboutus": "Biz haqimizda",
+        "login": "Kirish"
+    },
+    "header": {
+        "title": "Eng tez pitsa ⚡ yetkazib berish",
+        "text": "Biz sizning oilangiz uchun sharbatli pitsani 30 daqiqada yetkazib beramiz, agar kurer kechiksa - pitsa bepul!",
+        "imgtext": "Pishirish jarayoni:",
+        "order": "Buyurtma berish",
+        "pizmenu": "Pizza-menyu"
+    },
+    "section1": {
+        "menu": "Menyu",
+        "menuShow": "Hammasi",
+        "menuVegetarian": "Vegetarian",
+        "menuproducts": "Dengiz mahsulotlari",
+        "menuMushroom": "Qo'ziqorin",
+        "textmenus": "To'ldiruvchi: piyoz, kartoshka, pomidor, qo'ziqorinlar, pishloq, zaytun, go'sht...",
+        "italian": "Italyan",
+        "venecia": "Venetsiya",
+        "meat": "Go'sht",
+        "cheese": "Pishloq",
+        "menuingridients": "Malumoti",
+        "orderbtn": "Hozir buyurtma bering",
+        "imgtext": "ENG MASHXUR PIZZA",
+        "argentina": "Argentina",
+        "gribnaya": "Gribnaya",
+        "tomato": "Pomidor"
+    },
+
+    "section3": {
+        "text": "Bizning pitseriyamizda sizga imkon beradigan muntazam tadbirlar mavjud arzonroq narxda mazali taomlarni iste'mol qiling!",
+        "btnmore": "Yana",
+        "imgtext1": "BIZ QANDAY Pishiriq Pishiramiz",
+        "imgtext2": "BLOGIMIZ",
+        "imgtext3": "1 NARX UCHUN IKKI PITSA",
+        "imgtext4": "Oshxonaga sayohat",
+        "imgtext5": "3 PIZZA UCHUN BEPUL KOFE",
+        "imgtext6": "BIZNING INSTAGRAM",
+        "imgtext7": "Siz bizni qayerda tanlaysiz?"
+    },
+    "Aboutus": {
+        "textp1": "Bir necha yil ichida biz turli shaharlarda 6 ta savdo nuqtalarini ochdik: Qozon, Chelyabinsk, Ufa, Samara, Ijevsk va kelajakda Rossiyaning boshqa yirik shaharlarida tarmoqni rivojlantirishni rejalashtirmoqdamiz.",
+        "textp2": "Har bir punktning oshxonasi kamida: 400-500 kv.m., yuzlab xodimlar, mijozlar buyurtmalarini o'z vaqtida qabul qilish / tayyorlash / shakllantirish / yetkazib berish uchun ishlarni muammosiz bajaradi."
+    },
+    "footer": {
+        "events1": "3 ta pizza 1 ta bepul kofe",
+        "events2": "1 narxga 2 ta pizza",
+        "events3": "Oshxona sayohati",
+        "menu1": "Hammasini ko'rsatish",
+        "menu2": "Dengiz mahsulotlari",
+        "menu3": "Vegan",
+        "menu4": "Go'sht",
+        "aboutus1": "Bizning tariximiz",
+        "aboutus2": "Nega biz?"
+    },
+    "cart": {
+        "homepage": "Asosiy sahifa",
+        "removecart": "Bekor qilish",
+        "sizecart": "O'lchami",
+       "numbercart":"Soni"
+    }
+}
