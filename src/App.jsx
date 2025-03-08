@@ -6,6 +6,7 @@ import Events from "./components/section3";
 import Aboutus from "./components/Aboutus";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ErrorPage from './pages/Error'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import { Route, Routes } from "react-router-dom";
@@ -38,6 +39,7 @@ const Index = () => {
           <Route path={"/cart"} element={<Cart />} />
           <Route path={"/login"} element={<Login />} />
           <Route path={"/register"} element={<Register />} />
+          <Route path={"*"} element={<ErrorPage/>}/>
         </Routes>
         <Footer />
       </div>

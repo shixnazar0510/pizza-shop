@@ -66,5 +66,8 @@
         "removecart":"Cancel",
         "sizecart": "Size",
        "numbercart":"Number"
+    },
+    "error":{
+        "text":"404 not fount"
     }
 }
