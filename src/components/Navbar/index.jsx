@@ -21,7 +21,7 @@ const Index = () => {
     <div className=" sticky z-[80] top-0 left-0 right-0 ">
       <nav className=" text-white py-4 backdrop-opacity-15  bg-[#210A01]/95 pt-5 relative">
         <div className="container flex items-center justify-between w-full ">
-          <Link className="text-[34px] font-extrabold text-[#FF6432] " to={"/"}>
+          <Link className="md:text-[34px] text-[29px] font-extrabold text-[#FF6432] " to={"/"}>
             pizzashop
           </Link>
           <div className="lg:flex hidden items-center gap-10">

@@ -172,11 +172,11 @@ const Index = () => {
                 <h1 className="md:text-[25px] text-[22px] font-medium">
                   {t(`section1.${menuprice.name}`)}
                 </h1>
-                <p className="mt-5  text-center w-[90%]">
+                <p className="md:mt-5 mt-3  text-center w-[90%]">
                   {t(`section1.${menuprice.text}`)}
                 </p>
 
-                <div className="mt-5 flex items-center justify-between gap-5">
+                <div className="md:mt-5 mt-3 flex items-center justify-between gap-5">
                   <div>
                     <h3 className="flex items-start text-2xl  gap-2 font-medium">
                       {menuprice.price}{" "}
@@ -187,7 +187,7 @@ const Index = () => {
                 <button
                   onClick={() => addToCart(menuprice)}
                   disabled={cart.some((item) => item.id === menuprice.id)}
-                  className="py-3  lg:px-8 px-4 bg-[#FFA229] text-white   w-full mt-5  rounded-[100px] text-lg font-medium  hover:shadow-2xl hover:bg-[#FFA959] "
+                  className="md:py-3 py-2 lg:px-8 px-4 bg-[#FFA229] text-white   w-full md:mt-5  mt-3 rounded-[100px] text-lg font-medium  hover:shadow-2xl hover:bg-[#FFA959] "
                 >
                   {t("section1.orderbtn")}
                 </button>
@@ -254,28 +254,28 @@ const Index = () => {
         </div>
       </section>
       <section className="text-white ">
-        {menuprices && (
+      {menuprices && (
           <div className="relative">
-            <div className="z-50 fixed top-0 left-0 right-0 bottom-0 bg-black/50 flex items-center justify-center">
+            <div className="z-50 fixed top-0 left-0 right-0 bottom-0 bg-black/50 flex items-center justify-center max-w-full  mx-auto">
               <div
-                key={menuprice.id}
-                className="  bg-[#210A01] flex items-center flex-col lg:px-6 px-4 rounded-[30px] pb-8 relative"
+                key={menuprices.id}
+                className="  bg-[#210A01] flex items-center flex-col w-[78%] lg:px-6 px-4 lg:w-[600px] rounded-[30px] pb-8 relative"
               >
                 <img src={menuprices.img} alt="" />
                 <button
                   onClick={() => setmenuprices(!menuprices)}
-                  className="flex items-center justify-center w-10 h-10 bg-red-600 rounded-xl absolute  top-[5%] left-[90%]"
+                  className="flex items-center justify-center w-10 h-10 bg-red-600 rounded-xl absolute  top-[5%] left-[80%]"
                 >
                   X
                 </button>
                 <h1 className="md:text-[25px] text-[22px] font-medium">
                   {t(`section1.${menuprices.name}`)}
                 </h1>
-                <p className="mt-5  text-center">
+                <p className="md:mt-5 mt-3  text-center w-[90%]">
                   {t(`section1.${menuprices.text}`)}
                 </p>
 
-                <div className="mt-5 flex items-center justify-between gap-5">
+                <div className="md:mt-5 mt-3 flex items-center justify-between gap-5">
                   <div>
                     <h3 className="flex items-start text-2xl  gap-2 font-medium">
                       {menuprices.price}{" "}
@@ -283,7 +283,11 @@ const Index = () => {
                     </h3>
                   </div>
                 </div>
-                <button className="py-3  lg:px-8 px-4 bg-[#FFA229] text-white   w-full mt-5  rounded-[100px] text-lg font-medium  hover:shadow-2xl hover:bg-[#FFA959] ">
+                <button
+                  onClick={() => addToCart(menuprices)}
+                  disabled={cart.some((item) => item.id === menuprices.id)}
+                  className="md:py-3 py-2 lg:px-8 px-4 bg-[#FFA229] text-white   w-full md:mt-5  mt-3 rounded-[100px] text-lg font-medium  hover:shadow-2xl hover:bg-[#FFA959] "
+                >
                   {t("section1.orderbtn")}
                 </button>
               </div>
